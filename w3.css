@@ -29,7 +29,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 /* End extract */
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1,h2,h3,h4,h5,h6,.slim,.wide{font-family:Georgia,"Segoe UI",Arial,sans-serif}
-p{font-size:17px;font-family:Georgia,"Segoe UI",Arial,sans-serif;word-spacing:2px;}
+p{font-size:17px;font-family:Georgia,"Segoe UI",Arial,sans-serif;word-spacing:2px;color:#525c65}
 h1{font-size:55px}h2{font-size:35px}h3{font-size:28px}h4{font-size:22px}h5{font-size:18px}h6{font-size:16px}
 .serif{font-family:"Times New Roman",Times,serif}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}.wide{letter-spacing:4px}
@@ -73,9 +73,9 @@ ul.ul{list-style-type:none;padding:0;margin:0}ul.ul li{padding:6px 2px 6px 16px;
 .opennav,.closenav{color:inherit}.opennav:hover,.closenav:hover{cursor:pointer;opacity:0.8}
 .btn,.btn-floating,.dropnav a,.btn-floating-large,.btn-block,.hover-shadow,.hover-opacity,.hover-opacity-off,.hover-sepia,.hover-grayscale,.hover-greyscale,
 .navbar a,.sidenav a,.pagination li a,.hoverable tbody tr,.hoverable li,.accordion-content a,.dropdown-content a,.dropdown-click:hover,.dropdown-hover:hover,.opennav,.closenav,.closebtn,
-.hover-amber,.hover-aqua,.hover-blue,.hover-light-blue,.hover-brown,.hover-cyan,.hover-blue-grey,.hover-green,.hover-light-green,.hover-indigo,.hover-khaki,.hover-lime,.hover-orange,.hover-deep-orange,.hover-pink,
+.hover-amber,.hover-aqua,.hover-blue,.hover-light-blue,.hover-brown,.hover-pink,.hover-blue-grey,.hover-green,.hover-light-green,.hover-indigo,.hover-khaki,.hover-lime,.hover-orange,.hover-deep-orange,.hover-pink,
 .hover-purple,.hover-deep-purple,.hover-red,.hover-sand,.hover-teal,.hover-yellow,.hover-white,.hover-black,.hover-grey,.hover-light-grey,.hover-dark-grey,.hover-text-amber,.hover-text-aqua,.hover-text-blue,.hover-text-light-blue,
-.hover-text-brown,.hover-text-cyan,.hover-text-blue-grey,.hover-text-green,.hover-text-light-green,.hover-text-indigo,.hover-text-khaki,.hover-text-lime,.hover-text-orange,.hover-text-deep-orange,.hover-text-pink,.hover-text-purple,
+.hover-text-brown,.hover-text-pink,.hover-text-blue-grey,.hover-text-green,.hover-text-light-green,.hover-text-indigo,.hover-text-khaki,.hover-text-lime,.hover-text-orange,.hover-text-deep-orange,.hover-text-pink,.hover-text-purple,
 .hover-text-deep-purple,.hover-text-red,.hover-text-sand,.hover-text-teal,.hover-text-yellow,.hover-text-white,.hover-text-black,.hover-text-grey,.hover-text-light-grey,.hover-text-dark-grey
 {-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s}
 .ripple:active{opacity:0.5}.ripple{-webkit-transition:opacity 0s;transition:opacity 0s}
@@ -268,7 +268,7 @@ input[type=checkbox].check:disabled+.validate,input[type=radio].radio:disabled+.
 .blue,.hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .light-blue,.hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .brown,.hover-brown:hover{color:#fff!important;background-color:#795548!important}
-.cyan,.hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.pink,.hover-pink:hover{color:#000!important;background-color:#00bcd4!important}
 .blue-grey,.hover-blue-grey:hover,.blue-gray,.hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
 .green,.hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
 .light-green,.hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
@@ -298,7 +298,7 @@ input[type=checkbox].check:disabled+.validate,input[type=radio].radio:disabled+.
 .text-blue,.hover-text-blue:hover{color:#2196F3!important}
 .text-light-blue,.hover-text-light-blue:hover{color:#87CEEB!important}
 .text-brown,.hover-text-brown:hover{color:#795548!important}
-.text-cyan,.hover-text-cyan:hover{color:#00bcd4!important}
+.text-pink,.hover-text-pink:hover{color:#00bcd4!important}
 .text-blue-grey,.hover-text-blue-grey:hover,.text-blue-gray,.hover-text-blue-gray:hover{color:#607d8b!important}
 .text-green,.hover-text-green:hover{color:#4CAF50!important}
 .text-light-green,.hover-text-light-green:hover{color:#8bc34a!important}
@@ -324,7 +324,7 @@ input[type=checkbox].check:disabled+.validate,input[type=radio].radio:disabled+.
 .border-blue,.hover-border-blue:hover{border-color:#2196F3!important}
 .border-light-blue,.hover-border-light-blue:hover{border-color:#87CEEB!important}
 .border-brown,.hover-border-brown:hover{border-color:#795548!important}
-.border-cyan,.hover-border-cyan:hover{border-color:#00bcd4!important}
+.border-pink,.hover-border-pink:hover{border-color:#00bcd4!important}
 .border-blue-grey,.hover-blue-grey:hover,.border-blue-gray,.hover-blue-gray:hover{border-color:#607d8b!important}
 .border-green,.hover-border-green:hover{border-color:#4CAF50!important}
 .border-light-green,.hover-border-light-green:hover{border-color:#8bc34a!important}
